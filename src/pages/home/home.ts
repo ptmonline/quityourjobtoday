@@ -11,20 +11,34 @@ export class HomePage {
   public welcomeTitleSelected: string;
   public welcomeTitleSelected2: string;
   public welcomeTitleSelected3: string;
+  public fuckingclass: string;
   constructor(public navCtrl: NavController, private _fuckingApi: FuckingApi) {
+
     this._fuckingApi.get('homestuffthaface.json').subscribe((fuckingdata) => {
       this.welcomeIdiot = fuckingdata;
-      // this.welcomeTitleSelected = this.welcomeIdiot.dude[Math.floor(Math.random() * this.welcomeIdiot.dude.length)];
-      // this.welcomeTitleSelected2 = this.welcomeIdiot.names[Math.floor(Math.random() * this.welcomeIdiot.names.length)];
-      this.welcomeTitleSelected = this.getTheFuckingWord(this.welcomeIdiot.dude);
-      this.welcomeTitleSelected2 = this.getTheFuckingWord(this.welcomeIdiot.names);
-      this.welcomeTitleSelected3 = this.getTheFuckingWord(this.welcomeIdiot.job);
-      console.log(this.welcomeTitleSelected);
-    });
+      this.getTheFuckingWord(this.welcomeIdiot);
+      this.changeTheFuckingClass();
+    }); 
   }
 
-  getTheFuckingWord(fuckingPlace){
+  getTheFuckingWord(fuckingWord){
+    this.welcomeTitleSelected = this.randomizeTheShitOutOfTheFuckingWord(this.welcomeIdiot.dude);
+    this.welcomeTitleSelected2 = this.randomizeTheShitOutOfTheFuckingWord(this.welcomeIdiot.names);
+    this.welcomeTitleSelected3 = this.randomizeTheShitOutOfTheFuckingWord(this.welcomeIdiot.job);
+  }
+
+  randomizeTheShitOutOfTheFuckingWord(fuckingPlace){
     return fuckingPlace[Math.floor(Math.random() * fuckingPlace.length)]
+  }
+
+  changeTheFuckingSentence(){
+    this.getTheFuckingWord(this.welcomeIdiot);
+  }
+
+  changeTheFuckingClass(){
+    setInterval(()=>{
+      this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 )
+    }, Math.floor((Math.random() * 5000) + 100 ))
   }
 
 }
