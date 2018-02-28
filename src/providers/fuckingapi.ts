@@ -1,9 +1,10 @@
 import { Injectable } from "@angular/core";
 import { HttpClient, HttpParams } from '@angular/common/http';
+import { Observable } from "rxjs/Observable";
 
 @Injectable()
 export class FuckingApi {
-    url: string = 'http://fuckinghell'
+    url: string = './assets/stuff'
     constructor(public http: HttpClient) { }
 
     get(endpoint: string, params?: any, reqOpts?: any) {
@@ -20,7 +21,7 @@ export class FuckingApi {
             }
         }
 
-        return this.http.get(this.url + '/' + endpoint, reqOpts);
+        return this.http.get(this.url + '/' + endpoint);
     }
 
     post(endpoint: string, body: any, reqOpts?: any) {
