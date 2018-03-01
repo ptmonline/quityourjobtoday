@@ -18,7 +18,6 @@ export class HomePage {
     this._fuckingApi.get('homestuffthaface.json').subscribe((fuckingdata) => {
       this.welcomeIdiot = fuckingdata;
       this.getTheFuckingWord(this.welcomeIdiot);
-      this.changeTheFuckingClass();
     }); 
   }
 
@@ -35,12 +34,13 @@ export class HomePage {
 
   changeTheFuckingSentence(){
     this.getTheFuckingWord(this.welcomeIdiot);
+    this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 )
   }
 
-  changeTheFuckingClass(){
-    setInterval(()=>{
-      this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 )
-    }, Math.floor((Math.random() * 5000) + 100 ))
-  }
+  // changeTheFuckingClass(){
+  //   setInterval(()=>{
+  //     this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 )
+  //   }, Math.floor((Math.random() * 5000) + 100 ))
+  // }
 
 }
