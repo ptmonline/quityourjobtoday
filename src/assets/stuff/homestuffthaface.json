@@ -1,5 +1,57 @@
 {
-    "dude": ["Ohhhh shit", "Fuck me! not you again", "Holy Fuck", "Jesus Fucking Christ!", "Dude, sreiously!", "What the Fuck Man", "Oh Jesus Fuck", "Sweet Jesus Funky Balls"],
-    "names": ["MotherFucker", "Asshole", "Shithole", "DumbFuck", "Idiot", "FuckerFace"],
-    "job": ["shitty", "stupid", "depressing", "inferno", "fucking", "cunt"]
+    "dude": [
+        "Ohhhh shit",
+        "Fuck me! not you again",
+        "Holy Fuck",
+        "Jesus Fucking Christ!",
+        "Dude, seriously!",
+        "What the Fuck Man",
+        "Oh Jesus Fuck",
+        "Sweet Jesus Funky Balls"
+    ],
+    "names": [
+        "motherfucker",
+        "asshole",
+        "shithole",
+        "dumbfuck",
+        "idiot",
+        "cunt",
+        "poo eater",
+        "fuckerface",
+        "fucking fuck"
+    ],
+    "job": [
+        "shitty",
+        "stupid",
+        "depressing",
+        "inferno",
+        "fucking",
+        "cunt"
+    ],
+    "quotes": [
+        "You’re my favorite person besides every other person I’ve ever met.",
+        "No offense, but you make me want to staple my cunt shut.",
+        "Did your parents have any children that lived?",
+        "I envy people who have never met you.",
+        "You’re impossible to underestimate.",
+        "You’re not the dumbest person on the planet, but you sure better hope he doesn’t die.",
+        "If you were an inanimate object, you’d be a participation trophy.",
+        "You look like your father would be disappointed in you if he stayed.",
+        "You’re not pretty enough to be that dumb.",
+        "I’m sorry your dad beat you instead of cancer.",
+        "Take my lowest priority and put yourself beneath it.",
+        "Such a shame your mother didn’t swallow you.",
+        "The best part of you ran down your mom’s leg.",
+        "People like you are the reason God doesn’t talk to us anymore.",
+        "I’d love to stay and chat but I’d rather have type-2 diabetes.",
+        "How the fuck are you the sperm that won?",
+        "If you were a potato you’d be a stupid potato.",
+        "Your mother may have told you that you could be anything you wanted, but a douchebag wasn’t what she meant.",
+        "Ready to fail like your dad’s condom?",
+        "If I wanted to commit suicide I’d climb to your ego and jump to your IQ.",
+        "You make me wish I had more middle fingers.",
+        "If genius skips a generation, your children will be brilliant.",
+        "I don’t have the time or the crayons to explain this to you.",
+        "You’re dumber than I tell people."
+    ]
 }

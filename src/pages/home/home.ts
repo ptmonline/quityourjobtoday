@@ -11,6 +11,7 @@ export class HomePage {
   public welcomeTitleSelected: string;
   public welcomeTitleSelected2: string;
   public welcomeTitleSelected3: string;
+  public welcomeTitleSelected4: string;
   public fuckingclass: string;
   constructor(public navCtrl: NavController, private _fuckingApi: FuckingApi) {
 
@@ -25,6 +26,7 @@ export class HomePage {
     this.welcomeTitleSelected = this.randomizeTheShitOutOfTheFuckingWord(this.welcomeIdiot.dude);
     this.welcomeTitleSelected2 = this.randomizeTheShitOutOfTheFuckingWord(this.welcomeIdiot.names);
     this.welcomeTitleSelected3 = this.randomizeTheShitOutOfTheFuckingWord(this.welcomeIdiot.job);
+    this.welcomeTitleSelected4 = this.randomizeTheShitOutOfTheFuckingWord(this.welcomeIdiot.quotes);
   }
 
   randomizeTheShitOutOfTheFuckingWord(fuckingPlace){
