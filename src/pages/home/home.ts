@@ -37,13 +37,6 @@ export class HomePage {
   changeTheFuckingSentence(){
     this.getTheFuckingWord(this.welcomeIdiot);
     this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 );
-    this.fuckingbg = 'fuckingbg-' + Math.floor((Math.random() * 6) + 1 )
+    this.fuckingbg = 'fuckingbg-' + Math.floor((Math.random() * 12) + 1 )
   }
-
-  // changeTheFuckingClass(){
-  //   setInterval(()=>{
-  //     this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 )
-  //   }, Math.floor((Math.random() * 5000) + 100 ))
-  // }
-
 }
