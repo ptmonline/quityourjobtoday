@@ -13,6 +13,8 @@ export class HomePage {
   public welcomeTitleSelected3: string;
   public welcomeTitleSelected4: string;
   public fuckingclass: string;
+  public fuckingbg: string;
+
   constructor(public navCtrl: NavController, private _fuckingApi: FuckingApi) {
 
     this._fuckingApi.get('homestuffthaface.json').subscribe((fuckingdata) => {
@@ -34,7 +36,8 @@ export class HomePage {
 
   changeTheFuckingSentence(){
     this.getTheFuckingWord(this.welcomeIdiot);
-    this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 )
+    this.fuckingclass = 'fuckingclassanimation-' + Math.floor((Math.random() * 5) + 1 );
+    this.fuckingbg = 'fuckingbg-' + Math.floor((Math.random() * 6) + 1 )
   }
 
   // changeTheFuckingClass(){
